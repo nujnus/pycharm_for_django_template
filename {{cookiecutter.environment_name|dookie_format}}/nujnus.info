@@ -1,0 +1,1 @@
+name={{cookiecutter.environment_name|dookie_format}}

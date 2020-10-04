@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ad158fb-2bdc-4d8b-8aec-da14bfe08e50" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+  </component>
+
+  <component name="RunManager" selected="Python.runserver_dev">
+
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug_remote_middleware" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+  <configuration name="runserver_dev" type="PythonConfigurationType" factoryName="Python">
+    <module name="{{cookiecutter.environment_name|dookie_format}}"/>
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+    </envs>
+    <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="SCRIPT_NAME" value="manage.py" />
+    <option name="PARAMETERS" value="runserver --settings={{cookiecutter.project_name}}.settings.dev  127.0.0.1:8080" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <option name="MODULE_MODE" value="false" />
+    <option name="REDIRECT_INPUT" value="false" />
+    <option name="INPUT_FILE" value="" />
+    <method v="2" />
+  </configuration>
+
+
+    <configuration name="run debug.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="run debug_algor.py " type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_algor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+     <configuration name="run debug_model.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="run debug_request.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_request.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="dev_make_migrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="a_django_demo_2020_09_01_15_27_03" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="manage.py" />
+      <option name="PARAMETERS" value="makemigrations --settings={{cookiecutter.project_name}}.settings.dev" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="dev_migrate" type="PythonConfigurationType" factoryName="Python">
+      <module name="a_django_demo_2020_09_01_15_27_03" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/{{cookiecutter.project_name}}" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="manage.py" />
+      <option name="PARAMETERS" value="migrate --settings={{cookiecutter.project_name}}.settings.dev" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="celery" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug_remote_middleware" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_remote_middleware/debug_celery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grpc" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug_remote_middleware" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_remote_middleware/debug_grpc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nameko" type="PythonConfigurationType" factoryName="Python">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug_remote_middleware" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_remote_middleware/debug_nameko.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="dumpdata" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/dumpdata.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="from_requirements" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/from_requirements.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loaddata" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/loaddata.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/mysql.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reset_database" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/reset_database.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restart_rabbitmq" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/backends/restart_rabbitmq.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restart_redis" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/backends/restart_redis.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+
+
+    <configuration name="run_server_with_port" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run_server_with_port.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+
+    <configuration name="shell" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/shell.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="show migrations" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/showmigrations.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlmigrate" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/sqlmigrate.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="startapp" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/start_app.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="to_requirements" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/to_requirements.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in {{cookiecutter.project_name}}/test" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="{{cookiecutter.environment_name|dookie_format}}" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/{{cookiecutter._python_interpreter}}" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;{{cookiecutter.project_name}}/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.celery" />
+      <item itemvalue="Python.grpc" />
+      <item itemvalue="Python.nameko" />
+      <item itemvalue="Python.runserver_dev" />
+      <item itemvalue="Shell Script.dumpdata" />
+      <item itemvalue="Shell Script.from_requirements" />
+      <item itemvalue="Shell Script.loaddata" />
+      <item itemvalue="Shell Script.mysql" />
+      <item itemvalue="Shell Script.reset_database" />
+      <item itemvalue="Shell Script.restart_rabbitmq" />
+      <item itemvalue="Shell Script.restart_redis" />
+      <item itemvalue="Shell Script.run_server_with_port" />
+      <item itemvalue="Shell Script.shell" />
+      <item itemvalue="Shell Script.show migrations" />
+      <item itemvalue="Shell Script.sqlmigrate" />
+      <item itemvalue="Shell Script.startapp" />
+      <item itemvalue="Shell Script.to_requirements" />
+      <item itemvalue="Python tests.pytest in {{cookiecutter.project_name}}/test" />
+    </list>
+
+  </component>
+
+
+
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ad158fb-2bdc-4d8b-8aec-da14bfe08e50" name="Default Changelist" comment="" />
+      <created>1595820083663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595820083663</updated>
+    </task>
+    <servers />
+  </component>
+
+  <component name="WindowStateProjectService">
+    <state x="439" y="159" key="#Plugins" timestamp="1596862684003">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="439" y="159" key="#Plugins/0.23.1680.979@0.23.1680.979" timestamp="1596862684003" />
+    <state x="557" y="439" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1597125656133">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="557" y="439" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.979@0.23.1680.979" timestamp="1597125656133" />
+    <state x="0" y="25" width="1680" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598321371291">
+      <screen x="0" y="23" width="1680" height="983" />
+    </state>
+    <state x="0" y="23" width="1680" height="978" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1596931819313" />
+    <state x="0" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.980@0.23.1680.980" timestamp="1597726556785" />
+    <state x="0" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.981@0.23.1680.981" timestamp="1597734138407" />
+    <state x="0" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.983@0.23.1680.983" timestamp="1598321371291" />
+    <state x="587" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598274366319">
+      <screen x="0" y="23" width="1680" height="983" />
+    </state>
+    <state x="587" y="355" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1680.979@0.23.1680.979" timestamp="1597121769293" />
+    <state x="587" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1680.983@0.23.1680.983" timestamp="1598274366319" />
+    <state x="0" y="23" width="1680" height="979" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596501230011">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="0" y="23" width="1680" height="979" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.979@0.23.1680.979" timestamp="1596501230011" />
+    <state x="536" y="254" key="#startapp" timestamp="1596118492279">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="536" y="254" key="#startapp/0.23.1680.979@0.23.1680.979" timestamp="1596118492279" />
+    <state x="426" y="87" key="CommitChangelistDialog2" timestamp="1597131065544">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="426" y="87" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1597131065544" />
+    <state x="577" y="441" key="DBNavigator.CreateRenameConsoleDialog" timestamp="1596624498152">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="577" y="441" key="DBNavigator.CreateRenameConsoleDialog/0.23.1680.979@0.23.1680.979" timestamp="1596624498152" />
+    <state x="427" y="233" key="DBNavigator.DatasetFilterDialog" timestamp="1597235926320">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="427" y="233" key="DBNavigator.DatasetFilterDialog/0.23.1680.979@0.23.1680.979" timestamp="1597235926320" />
+    <state x="377" y="173" key="DBNavigator.ProjectSettingsDialog" timestamp="1597229185456">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="377" y="173" key="DBNavigator.ProjectSettingsDialog/0.23.1680.979@0.23.1680.979" timestamp="1597229185456" />
+    <state x="100" y="123" width="1480" height="779" key="DiffContextDialog" timestamp="1597154346608">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="100" y="123" width="1480" height="779" key="DiffContextDialog/0.23.1680.979@0.23.1680.979" timestamp="1597154346608" />
+    <state x="627" y="299" key="FileChooserDialogImpl" timestamp="1596765570740">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="627" y="299" key="FileChooserDialogImpl/0.23.1680.979@0.23.1680.979" timestamp="1596765570740" />
+    <state width="1659" height="332" key="GridCell.Tab.0.bottom" timestamp="1598323563532">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1657" height="258" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1597322573161" />
+    <state width="1657" height="316" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1597726559009" />
+    <state width="1657" height="338" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1597824928557" />
+    <state width="1659" height="332" key="GridCell.Tab.0.bottom/0.23.1680.982@0.23.1680.982" timestamp="1598323563532" />
+    <state width="1659" height="332" key="GridCell.Tab.0.center" timestamp="1598323563531">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1657" height="258" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1597322573160" />
+    <state width="1657" height="316" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1597726559008" />
+    <state width="1657" height="338" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1597824928556" />
+    <state width="1659" height="332" key="GridCell.Tab.0.center/0.23.1680.982@0.23.1680.982" timestamp="1598323563531" />
+    <state width="1659" height="332" key="GridCell.Tab.0.left" timestamp="1598323563530">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1657" height="258" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1597322573155" />
+    <state width="1657" height="316" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1597726559007" />
+    <state width="1657" height="338" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1597824928556" />
+    <state width="1659" height="332" key="GridCell.Tab.0.left/0.23.1680.982@0.23.1680.982" timestamp="1598323563530" />
+    <state width="1659" height="332" key="GridCell.Tab.0.right" timestamp="1598323563531">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1657" height="258" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1597322573160" />
+    <state width="1657" height="316" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1597726559008" />
+    <state width="1657" height="338" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1597824928557" />
+    <state width="1659" height="332" key="GridCell.Tab.0.right/0.23.1680.982@0.23.1680.982" timestamp="1598323563531" />
+    <state width="1657" height="316" key="GridCell.Tab.1.bottom" timestamp="1597824928529">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1657" height="316" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1596933137805" />
+    <state width="1657" height="316" key="GridCell.Tab.1.bottom/0.23.1680.980@0.23.1680.980" timestamp="1597726559010" />
+    <state width="1657" height="316" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1597824928529" />
+    <state width="1657" height="316" key="GridCell.Tab.1.center" timestamp="1597824928528">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1657" height="316" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1596933137804" />
+    <state width="1657" height="316" key="GridCell.Tab.1.center/0.23.1680.980@0.23.1680.980" timestamp="1597726559010" />
+    <state width="1657" height="316" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1597824928528" />
+    <state width="1657" height="316" key="GridCell.Tab.1.left" timestamp="1597824928528">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1657" height="316" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1596933137804" />
+    <state width="1657" height="316" key="GridCell.Tab.1.left/0.23.1680.980@0.23.1680.980" timestamp="1597726559009" />
+    <state width="1657" height="316" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1597824928528" />
+    <state width="1657" height="316" key="GridCell.Tab.1.right" timestamp="1597824928529">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1657" height="316" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1596933137805" />
+    <state width="1657" height="316" key="GridCell.Tab.1.right/0.23.1680.980@0.23.1680.980" timestamp="1597726559010" />
+    <state width="1657" height="316" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1597824928529" />
+    <state x="0" y="23" width="1680" height="981" key="SettingsEditor" timestamp="1598274317876">
+      <screen x="0" y="23" width="1680" height="983" />
+    </state>
+    <state x="329" y="255" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1597334466443" />
+    <state x="0" y="23" width="1680" height="981" key="SettingsEditor/0.23.1680.982@0.23.1680.982" timestamp="1598234074956" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1680.983@0.23.1680.983" timestamp="1598274317876" />
+    <state x="265" y="223" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1597328281576">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="265" y="223" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.23.1680.979@0.23.1680.979" timestamp="1597328281576" />
+    <state x="100" y="123" width="1480" height="779" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597131372419">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="100" y="123" width="1480" height="779" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.979@0.23.1680.979" timestamp="1597131372419" />
+    <state x="540" y="269" width="600" height="538" key="find.popup" timestamp="1597205499396">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="540" y="269" width="600" height="538" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1597205499396" />
+    <state x="583" y="307" key="git4idea.merge.GitMergeDialog" timestamp="1597131123436">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="583" y="307" key="git4idea.merge.GitMergeDialog/0.23.1680.979@0.23.1680.979" timestamp="1597131123436" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1597328788848">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.23.1680.979@0.23.1680.979" timestamp="1597328788848" />
+    <state x="489" y="235" width="700" height="530" key="recent.locations.popup" timestamp="1597128454057">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="489" y="235" width="700" height="530" key="recent.locations.popup/0.23.1680.979@0.23.1680.979" timestamp="1597128454057" />
+    <state x="503" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1597159184582">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="503" y="236" width="672" height="678" key="search.everywhere.popup/0.23.1680.979@0.23.1680.979" timestamp="1597159184582" />
+  </component>
+</project>
